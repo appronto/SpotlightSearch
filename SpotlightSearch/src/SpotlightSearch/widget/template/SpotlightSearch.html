@@ -1,0 +1,20 @@
+<div dojoAttachPoint="divNode" class="spotlightsearchinput">
+	<form data-dojo-attach-point="searchFormNode">
+        <div class="input-group">
+            <input data-dojo-attach-point="inputBox" class="mendixFormView_textBox form-control" />
+            <span class="input-group-btn searchInputButton">
+                <button class="btn btn-default" type="button" data-dojo-attach-point="inputboxbutton">
+                    <span class="glyphicon glyphicon-search"></span>
+                </button>
+            </span>
+        </div>
+    </form>
+    <div class="spotlightlist mx-listview listview-hover" data-dojo-attach-point="spotlightlist" style="display: none;">
+        <div data-dojo-attach-point="spotlightsearchdiv" class="spotlightsearchdiv" style="display: none;">
+            <ul class="spotlightsearchlist mx-list mx-list-striped mx-listview-list" data-dojo-attach-point="spotlightsearchlist"></ul>
+        </div>
+        <div>
+		  <ul class="spotlightselectionlist mx-list mx-list-striped mx-listview-list" data-dojo-attach-point="spotlightselectionlist"></ul>
+        </div>
+	</div>
+</div>

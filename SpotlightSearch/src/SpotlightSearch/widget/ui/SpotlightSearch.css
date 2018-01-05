@@ -1,0 +1,19 @@
+.spotlightlist {
+    position: absolute;
+    z-index: 900;
+}
+.spotlightlist .selectionlistitem.mx-listview-item {
+    padding: 10px;
+}
+.spotlightlist .selectionlistitem.mx-listview-item:hover {
+    cursor: pointer;
+}
+
+.spotlightlist .spotlightsearchlist{
+    border-bottom: solid #FFF;
+}
+.spotlightlist .spotlightselectionlist{
+    list-style: outside none none;
+    padding-left: 0px;
+    margin: 0px;
+}

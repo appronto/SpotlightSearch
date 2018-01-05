@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="SpotlightSearch.widget.SpotlightSearch" needsEntityContext="true" xmlns="http://www.mendix.com/widget/1.0/">
+    <name>SpotlightSearch</name>
+    <description>Widget for the Spotlight search module.</description>
+
+    <icon>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</icon>
+
+    <properties>
+        <property key="inputValue" type="attribute">
+            <caption>Attribute</caption>
+            <category>Settings</category>
+            <description>The input attribute of the widget.</description>
+            <attributeTypes>
+                <attributeType name="String" />
+            </attributeTypes>
+        </property>
+        <property key="mfToExecute" type="microflow" required="true" defaultValue="">
+            <caption>Microflow</caption>
+            <category>Settings</category>
+            <description>The microflow to execute upon hitting the enter key</description>
+            <returnType type="Boolean" />
+        </property>
+        <property key="async" type="boolean" defaultValue="false">
+            <caption>Asynchronous</caption>
+            <category>Settings</category>    
+            <description>Call microflow asynchronously</description>    
+        </property>
+        <property key="progressBar" type="boolean" defaultValue="false">
+             <caption>Show progress</caption>
+             <category>Settings</category>    
+             <description>Show a progress bar</description>    
+        </property>
+        <property key="clearSearchInput" type="boolean" defaultValue="true">
+             <caption>Clear the input</caption>
+             <category>Settings</category>    
+             <description>Must the inputbox be cleared when the search has been executed.</description>    
+        </property>
+         <property key="progressMsg" type="string" defaultValue="Loading">
+            <caption>Progress message</caption>
+             <category>Settings</category>    
+             <description>Progress bar message (only visible if 'Show progress' is true)</description>    
+        </property>
+		<property key="placeHolderTxt" type="translatableString"  required="false">
+            <caption>Placeholder</caption>
+            <category>Settings</category>
+            <description>Placeholder text on the inputfield.</description>
+        </property>
+		<property key="optionstext" type="translatableString"  required="false">
+            <caption>Search options text</caption>
+            <category>Group selection</category>
+            <description>The suffix text that will be shown in the possible options.</description>
+        </property>
+		
+		<property key="tableEntity" required="false" type="entity" allowNonPersistableEntities="false">
+			<caption>Search entities</caption>
+			<category>Group selection</category>
+			<description>On what entities can be search and can be selected as specific table.</description>
+		</property>
+		<property key="tableConstraint" type="entityConstraint" entityProperty="tableEntity" required="false">
+            <caption>XPath Constraint</caption>
+            <category>Group selection</category>
+            <description>The XPath constraint on the objects.</description> 
+        </property>
+		<property key="titleAttr" required="false" type="attribute" entityProperty="tableEntity">
+			<caption>Title</caption>
+			<category>Group selection</category>
+			<description>The name of the table that will be searched.</description>
+			<attributeTypes>
+				<attributeType name="String"/>
+			</attributeTypes>
+		</property>
+		<property key="selectionRef" type="entity" required="false" isPath="yes" pathType="reference" allowNonPersistableEntities="true">
+            <caption>Reference selected item</caption>
+            <category>Group selection</category>
+            <description>The reference will be set when the search must be done for a specific table.</description>
+        </property>
+        
+        <property key="searchMF" type="microflow" required="false" defaultValue="">
+            <caption>First result microflow</caption>
+            <category>Direct search</category>
+            <description>The microflow that will give the first found results. The output must return a list of 'Result entity'.</description>
+            <returnType type="Void" />
+        </property>
+        <property key="searchEntity" required="false" type="entity" allowNonPersistableEntities="true">
+			<caption>Result entity</caption>
+			<category>Direct search</category>
+			<description>The object type that will returned containing the results.</description>
+		</property>
+        <property key="searchAttr" required="false" type="attribute" entityProperty="searchEntity">
+			<caption>Result Title</caption>
+			<category>Direct search</category>
+			<description>The attribute that will be shwon in the results.</description>
+			<attributeTypes>
+				<attributeType name="String"/>
+			</attributeTypes>
+		</property>
+        <property key="searchIcon" required="false" type="attribute" entityProperty="searchEntity">
+			<caption>Result Glyphicon</caption>
+			<category>Direct search</category>
+			<description>The optional glyphicon that will shown before the Resylt Title.</description>
+			<attributeTypes>
+				<attributeType name="String"/>
+			</attributeTypes>
+		</property>
+        <property key="searchOpenMF" type="microflow" entityProperty="searchEntity" required="false" defaultValue="">
+            <caption>Result open microflow</caption>
+            <category>Direct search</category>
+            <description>The microflow that will be triggered when a found result is selected.</description>
+            <returnType type="Void" />
+        </property>
+        <property key="waitTime" type="integer" defaultValue="500">
+             <caption>Wait for search</caption>
+             <category>Direct search</category>    
+             <description>Time in milliseconds before </description>    
+        </property>
+    </properties>
+</widget>
+
